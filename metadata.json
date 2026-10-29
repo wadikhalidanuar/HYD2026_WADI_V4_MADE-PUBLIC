@@ -1,0 +1,10 @@
+{
+  "name": "UmbraNav - Vampire Shade Walker Taichung",
+  "description": "Taichung pedestrian shade & heat avoidance navigation app. Walk like a vampire through arcades, tree canopies, and real-time shadow paths, and propose new urban shade infrastructure.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

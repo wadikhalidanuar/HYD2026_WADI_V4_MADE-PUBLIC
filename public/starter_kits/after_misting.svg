@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4299E1"/><stop offset="100%" stop-color="#EBF8FF"/></linearGradient>
+    <radialGradient id="mistFog" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.85"/><stop offset="60%" stop-color="#E0F2FE" stop-opacity="0.4"/><stop offset="100%" stop-color="#BAE6FD" stop-opacity="0"/></radialGradient>
+  </defs>
+  <!-- Refreshing Sky -->
+  <rect width="600" height="400" fill="url(#mSky)"/>
+  <!-- Taiwanese Shop Shophouses -->
+  <polygon points="0,60 180,110 180,400 0,400" fill="#CBD5E0"/>
+  <!-- Clean Cool Awning over Storefronts -->
+  <path d="M0,130 L180,160 L180,195 L0,165 Z" fill="#047857"/>
+  <!-- Storefront Signboards -->
+  <circle cx="90" cy="140" r="24" fill="#FFFFFF" stroke="#A0AEC0" stroke-width="2"/>
+  <text x="90" y="145" font-size="12" font-weight="black" fill="#065F46" text-anchor="middle" font-family="sans-serif">清涼茶飲</text>
+  <rect x="70" y="180" width="40" height="24" fill="#0284C7" rx="3"/>
+  <text x="90" y="196" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle" font-family="sans-serif">微霧區</text>
+  <!-- High Pressure Stainless Steel Misting Pipe Line -->
+  <line x1="5" y1="165" x2="180" y2="195" stroke="#E2E8F0" stroke-width="3"/>
+  <!-- High Frequency Misting Nozzles -->
+  <circle cx="25" cy="168" r="3" fill="#0284C7"/>
+  <circle cx="65" cy="175" r="3" fill="#0284C7"/>
+  <circle cx="105" cy="182" r="3" fill="#0284C7"/>
+  <circle cx="145" cy="189" r="3" fill="#0284C7"/>
+  <!-- Cool Misting Micro-droplet Clouds Cooling the Sidewalk -->
+  <ellipse cx="30" cy="225" rx="45" ry="50" fill="url(#mistFog)"/>
+  <ellipse cx="70" cy="235" rx="50" ry="55" fill="url(#mistFog)"/>
+  <ellipse cx="115" cy="240" rx="55" ry="60" fill="url(#mistFog)"/>
+  <ellipse cx="155" cy="245" rx="45" ry="55" fill="url(#mistFog)"/>
+  <ellipse cx="90" cy="265" rx="80" ry="45" fill="url(#mistFog)"/>
+  <!-- Roadway -->
+  <polygon points="180,180 600,160 600,400 180,400" fill="#94A3B8"/>
+  <!-- Wet Evaporatively Cooled Sidewalk -->
+  <polygon points="0,240 240,240 200,400 0,400" fill="#64748B"/>
+  <ellipse cx="110" cy="330" rx="90" ry="25" fill="#38BDF8" opacity="0.3"/>
+  <!-- Pedestrians Refreshing in Microclimate -->
+  <g transform="translate(80, 220)">
+    <circle cx="25" cy="42" r="9" fill="#1E293B"/>
+    <path d="M16,52 L34,52 L30,110 L20,110 Z" fill="#0284C7"/>
+    <rect x="18" y="110" width="14" height="40" fill="#0F172A"/>
+    <ellipse cx="25" cy="152" rx="22" ry="7" fill="#000000" opacity="0.3"/>
+  </g>
+  <g transform="translate(130, 205)">
+    <circle cx="15" cy="30" r="8" fill="#1E293B"/>
+    <path d="M8,40 L22,40 L20,95 L10,95 Z" fill="#10B981"/>
+    <rect x="10" y="95" width="10" height="30" fill="#0F172A"/>
+    <ellipse cx="15" cy="128" rx="18" ry="6" fill="#000000" opacity="0.3"/>
+  </g>
+  <!-- Misting Cooling Badge -->
+  <g transform="translate(20, 75)">
+    <rect width="115" height="24" rx="12" fill="#0C4A6E" opacity="0.9"/>
+    <text x="58" y="16" fill="#38BDF8" font-size="10" font-weight="bold" text-anchor="middle" font-family="sans-serif">💧 -5.2°C Misting Active</text>
+  </g>
+</svg>

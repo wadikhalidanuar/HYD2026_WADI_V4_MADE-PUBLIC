@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+      <defs>
+        <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#87CEEB"/><stop offset="100%" stop-color="#E0F6FF"/></linearGradient>
+        <linearGradient id="wall1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#EAE6DF"/><stop offset="100%" stop-color="#CFC9C0"/></linearGradient>
+        <linearGradient id="pave1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#B0A8A0"/><stop offset="100%" stop-color="#8E867E"/></linearGradient>
+        <linearGradient id="plant1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#48bb78"/><stop offset="100%" stop-color="#22543d"/></linearGradient>
+      </defs>
+      <rect width="400" height="300" fill="url(#sky1)"/>
+      <rect x="0" y="40" width="160" height="260" fill="url(#wall1)"/>
+      <rect x="15" y="80" width="120" height="150" fill="#2D3748" rx="4"/>
+      <rect x="20" y="85" width="110" height="140" fill="#EDF2F7" opacity="0.3"/>
+      <!-- Trellis Wire -->
+      <g stroke="#4A5568" stroke-width="1.5" opacity="0.6">
+        <line x1="20" y1="50" x2="20" y2="240"/><line x1="50" y1="50" x2="50" y2="240"/><line x1="80" y1="50" x2="80" y2="240"/><line x1="110" y1="50" x2="110" y2="240"/><line x1="140" y1="50" x2="140" y2="240"/>
+        <line x1="10" y1="70" x2="150" y2="70"/><line x1="10" y1="110" x2="150" y2="110"/><line x1="10" y1="150" x2="150" y2="150"/><line x1="10" y1="190" x2="150" y2="190"/><line x1="10" y1="230" x2="150" y2="230"/>
+      </g>
+      <!-- Lush climbing vines -->
+      <g fill="url(#plant1)">
+        <circle cx="25" cy="180" r="14"/><circle cx="45" cy="160" r="18"/><circle cx="35" cy="130" r="16"/><circle cx="55" cy="110" r="15"/>
+        <circle cx="75" cy="140" r="17"/><circle cx="85" cy="95" r="16"/><circle cx="105" cy="120" r="19"/><circle cx="125" cy="80" r="15"/>
+        <circle cx="135" cy="150" r="18"/><circle cx="30" cy="210" r="16"/><circle cx="65" cy="200" r="18"/><circle cx="110" cy="190" r="17"/>
+        <circle cx="140" cy="210" r="16"/><circle cx="80" cy="70" r="14"/><circle cx="50" cy="80" r="15"/><circle cx="120" cy="160" r="17"/>
+      </g>
+      <!-- Sidewalk Planters -->
+      <rect x="10" y="235" width="145" height="30" fill="#4A5568" rx="3"/>
+      <rect x="15" y="238" width="135" height="4" fill="#2D3748"/>
+      <!-- Pavement -->
+      <polygon points="0,250 400,210 400,300 0,300" fill="url(#pave1)"/>
+      <!-- Walking pedestrians in shade -->
+      <g transform="translate(220, 160)">
+        <circle cx="10" cy="15" r="8" fill="#2D3748"/>
+        <path d="M5,25 Q10,45 8,70 L14,70 Q16,45 15,25 Z" fill="#4A5568"/>
+        <circle cx="35" cy="20" r="7" fill="#1A202C"/>
+        <path d="M30,30 Q35,50 33,72 L39,72 Q41,50 40,30 Z" fill="#2B6CB0"/>
+      </g>
+      <!-- Sunlight dappled shadows -->
+      <ellipse cx="235" cy="275" rx="35" ry="8" fill="#000" opacity="0.25"/>
+    </svg>

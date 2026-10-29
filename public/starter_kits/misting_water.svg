@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+      <defs>
+        <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#63B3ED"/><stop offset="100%" stop-color="#BEE3F8"/></linearGradient>
+        <linearGradient id="mistG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#EBF8FF" stop-opacity="0.9"/><stop offset="100%" stop-color="#BEE3F8" stop-opacity="0.1"/></linearGradient>
+      </defs>
+      <rect width="400" height="300" fill="url(#sky2)"/>
+      <!-- Shop building & awning -->
+      <rect x="0" y="30" width="220" height="270" fill="#D69E2E" opacity="0.2"/>
+      <path d="M0,70 L230,85 L220,115 L0,95 Z" fill="#9B2C2C"/>
+      <!-- Store Sign: 清心茶飲 -->
+      <rect x="180" y="90" width="30" height="70" fill="#276749" rx="2"/>
+      <text x="195" y="115" font-size="11" fill="#FFF" font-weight="bold" text-anchor="middle" font-family="sans-serif">清</text>
+      <text x="195" y="132" font-size="11" fill="#FFF" font-weight="bold" text-anchor="middle" font-family="sans-serif">心</text>
+      <text x="195" y="149" font-size="9" fill="#FFF" font-weight="bold" text-anchor="middle" font-family="sans-serif">茶飲</text>
+      <!-- Misting line pipe -->
+      <line x1="5" y1="95" x2="225" y2="115" stroke="#CBD5E0" stroke-width="4"/>
+      <!-- Nozzles -->
+      <circle cx="35" cy="98" r="3" fill="#4A5568"/>
+      <circle cx="85" cy="102" r="3" fill="#4A5568"/>
+      <circle cx="135" cy="107" r="3" fill="#4A5568"/>
+      <circle cx="185" cy="111" r="3" fill="#4A5568"/>
+      <!-- Misting Clouds / Fine droplets -->
+      <ellipse cx="40" cy="140" rx="35" ry="45" fill="url(#mistG)"/>
+      <ellipse cx="90" cy="150" rx="40" ry="50" fill="url(#mistG)"/>
+      <ellipse cx="140" cy="155" rx="45" ry="52" fill="url(#mistG)"/>
+      <ellipse cx="190" cy="160" rx="35" ry="48" fill="url(#mistG)"/>
+      <ellipse cx="115" cy="180" rx="75" ry="45" fill="url(#mistG)"/>
+      <!-- Pedestrians enjoying mist cooling -->
+      <g transform="translate(130, 165)">
+        <circle cx="15" cy="12" r="8" fill="#2D3748"/>
+        <path d="M8,22 Q15,45 13,80 L20,80 Q22,45 20,22 Z" fill="#FFF"/>
+        <circle cx="45" cy="15" r="8" fill="#2D3748"/>
+        <path d="M38,25 Q45,50 43,80 L50,80 Q52,50 50,25 Z" fill="#2B6CB0"/>
+      </g>
+      <!-- Pavement -->
+      <polygon points="0,250 400,230 400,300 0,300" fill="#718096"/>
+      <!-- Wet mist pavement reflection -->
+      <ellipse cx="140" cy="275" rx="80" ry="14" fill="#BEE3F8" opacity="0.45"/>
+    </svg>

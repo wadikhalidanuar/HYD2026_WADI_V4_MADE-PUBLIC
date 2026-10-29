@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+      <defs>
+        <linearGradient id="aSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#63B3ED"/><stop offset="100%" stop-color="#EBF8FF"/></linearGradient>
+        <linearGradient id="vineG" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#48BB78"/><stop offset="100%" stop-color="#22543D"/></linearGradient>
+      </defs>
+      <!-- Sky -->
+      <rect width="600" height="400" fill="url(#aSky)"/>
+      <!-- Background Buildings -->
+      <polygon points="0,60 180,110 180,400 0,400" fill="#CBD5E0"/>
+      <!-- Road & Vehicles -->
+      <polygon points="180,180 600,160 600,400 180,400" fill="#A0AEC0"/>
+      <!-- Sidewalk in deep shade -->
+      <polygon points="0,240 240,240 200,400 0,400" fill="#B0A8A0"/>
+      <!-- Complete continuous green vine canopy tunnel over sidewalk -->
+      <g stroke="#22543D" stroke-width="4" fill="none">
+        <!-- Arched Pergola Trellis Ribs -->
+        <path d="M10,130 Q110,90 210,140"/>
+        <path d="M10,160 Q110,120 210,170"/>
+        <path d="M10,190 Q110,150 210,200"/>
+        <path d="M10,220 Q110,180 210,230"/>
+        <line x1="210" y1="140" x2="210" y2="350"/>
+        <line x1="10" y1="130" x2="10" y2="350"/>
+      </g>
+      <!-- Dense Lush Green Leaf Canopy & Hanging Vines -->
+      <g fill="url(#vineG)">
+        <!-- Top Canopy Cover -->
+        <ellipse cx="60" cy="115" rx="35" ry="22"/>
+        <ellipse cx="110" cy="105" rx="42" ry="25"/>
+        <ellipse cx="160" cy="115" rx="38" ry="24"/>
+        <ellipse cx="200" cy="135" rx="32" ry="22"/>
+        <ellipse cx="80" cy="140" rx="40" ry="24"/>
+        <ellipse cx="140" cy="135" rx="45" ry="26"/>
+        <!-- Vertical Column Foliage -->
+        <rect x="200" y="140" width="22" height="190" rx="10"/>
+        <circle cx="210" cy="160" r="16"/><circle cx="210" cy="200" r="18"/><circle cx="210" cy="240" r="17"/><circle cx="210" cy="280" r="19"/>
+        <!-- Hanging tender tendrils & mist droplets -->
+        <circle cx="70" cy="145" r="4"/><circle cx="95" cy="155" r="5"/><circle cx="120" cy="150" r="4"/><circle cx="145" cy="160" r="5"/><circle cx="170" cy="150" r="4"/>
+      </g>
+      <!-- Deep Cooling Shade on Walkway -->
+      <polygon points="0,240 215,240 185,400 0,400" fill="#1A202C" opacity="0.45"/>
+      <!-- Planter boxes along the curb -->
+      <rect x="195" y="270" width="30" height="60" fill="#4A5568" rx="3"/>
+      <!-- Pedestrians walking comfortably WITHOUT umbrellas -->
+      <g transform="translate(80, 220)">
+        <circle cx="25" cy="42" r="9" fill="#2D3748"/>
+        <path d="M16,52 L34,52 L30,110 L20,110 Z" fill="#FFF"/>
+        <rect x="18" y="110" width="14" height="40" fill="#1A202C"/>
+        <!-- Hand holding tote bag, relaxed posture -->
+        <rect x="33" y="65" width="8" height="18" fill="#D69E2E" rx="2"/>
+        <!-- Soft diffused shadow in shade -->
+        <ellipse cx="25" cy="152" rx="22" ry="7" fill="#000" opacity="0.3"/>
+      </g>
+      <!-- Second person walking behind, enjoying cool green corridor -->
+      <g transform="translate(130, 195)">
+        <circle cx="15" cy="30" r="8" fill="#1A202C"/>
+        <path d="M8,40 L22,40 L20,95 L10,95 Z" fill="#2B6CB0"/>
+        <rect x="10" y="95" width="10" height="30" fill="#2D3748"/>
+      </g>
+    </svg>

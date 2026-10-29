@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+      <defs>
+        <linearGradient id="bSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#63B3ED"/><stop offset="100%" stop-color="#EBF8FF"/></linearGradient>
+        <radialGradient id="sunGlare" cx="0.8" cy="0.1" r="0.6"><stop offset="0%" stop-color="#FFF" stop-opacity="1"/><stop offset="40%" stop-color="#FEFCBF" stop-opacity="0.8"/><stop offset="100%" stop-color="#FEFCBF" stop-opacity="0"/></radialGradient>
+      </defs>
+      <!-- Blazing Sun Sky -->
+      <rect width="600" height="400" fill="url(#bSky)"/>
+      <circle cx="480" cy="50" r="120" fill="url(#sunGlare)"/>
+      <circle cx="480" cy="50" r="35" fill="#F6E05E"/>
+      <!-- Taiwanese Shop Buildings (Shophouses) -->
+      <polygon points="0,60 180,110 180,400 0,400" fill="#CBD5E0"/>
+      <!-- Storefront signs (早午餐, 髮型, 永和豆漿) -->
+      <circle cx="90" cy="140" r="24" fill="#FFF" stroke="#A0AEC0" stroke-width="2"/>
+      <text x="90" y="145" font-size="12" font-weight="black" fill="#2D3748" text-anchor="middle" font-family="sans-serif">早午餐</text>
+      <rect x="70" y="180" width="40" height="24" fill="#2B6CB0" rx="3"/>
+      <text x="90" y="196" font-size="11" font-weight="bold" fill="#FFF" text-anchor="middle" font-family="sans-serif">髮型</text>
+      <!-- Open asphalt road & harsh direct sunlight -->
+      <polygon points="180,180 600,160 600,400 180,400" fill="#A0AEC0"/>
+      <!-- Parked Scooters / Motorcycles along the sunny curb -->
+      <g transform="translate(190, 230)">
+        <ellipse cx="30" cy="40" rx="14" ry="10" fill="#4A5568"/>
+        <polygon points="10,25 45,20 40,40 15,40" fill="#E53E3E"/>
+        <ellipse cx="70" cy="42" rx="14" ry="10" fill="#4A5568"/>
+        <polygon points="50,25 85,20 80,42 55,42" fill="#3182CE"/>
+        <ellipse cx="110" cy="44" rx="14" ry="10" fill="#4A5568"/>
+        <polygon points="90,27 125,22 120,44 95,44" fill="#D69E2E"/>
+      </g>
+      <!-- Sidewalk -->
+      <polygon points="0,240 240,240 200,400 0,400" fill="#E2E8F0"/>
+      <!-- Heat shimmer wave lines -->
+      <path d="M220,180 Q240,175 260,180 T300,180 T340,180" stroke="#FFF" stroke-width="1.5" opacity="0.4" fill="none"/>
+      <!-- Pedestrian with Sun Parasol (walking alone in scorching heat) -->
+      <g transform="translate(80, 220)">
+        <!-- Parasol -->
+        <path d="M5,20 Q25,-5 45,20 Z" fill="#FFF" stroke="#CBD5E0" stroke-width="1.5"/>
+        <line x1="25" y1="20" x2="25" y2="45" stroke="#718096" stroke-width="2"/>
+        <!-- Figure -->
+        <circle cx="25" cy="42" r="9" fill="#2D3748"/>
+        <path d="M16,52 L34,52 L30,110 L20,110 Z" fill="#FFF"/>
+        <rect x="18" y="110" width="14" height="40" fill="#1A202C"/>
+        <!-- Harsh dark small shadow directly under feet -->
+        <ellipse cx="25" cy="152" rx="16" ry="5" fill="#000" opacity="0.6"/>
+      </g>
+      <!-- Traffic in background -->
+      <rect x="360" y="210" width="70" height="35" fill="#D69E2E" rx="4"/>
+      <rect x="450" y="200" width="90" height="40" fill="#E2E8F0" rx="4"/>
+    </svg>
